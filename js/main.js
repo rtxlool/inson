@@ -147,6 +147,17 @@
     body.classList.remove('page-leaving');
   });
 
+  /* ---------- Wire project tile hrefs to project.html?slug=<img-basename> ---------- */
+  document.querySelectorAll('a.proj').forEach(function (a) {
+    const img = a.querySelector('img');
+    if (!img) return;
+    const src = img.getAttribute('src') || '';
+    const m = src.match(/projects\/([^.\/]+)\./);
+    if (m && (a.getAttribute('href') === '#' || a.getAttribute('href') === 'projects.html')) {
+      a.setAttribute('href', 'project.html?slug=' + m[1]);
+    }
+  });
+
   /* ---------- Header backdrop on scroll ---------- */
   const header = document.querySelector('.site-header');
   if (header) {
