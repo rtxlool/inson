@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Projects — Inson Dubois Wood</title>
-<meta name="description" content="Selected residential projects from Inson Dubois Wood, spanning New York, Greenwich, Palm Beach, Europe and Asia.">
+<meta name="description" content="A library of thirty residential projects from Inson Dubois Wood — New York, Greenwich, Palm Beach, Europe and Asia.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -15,18 +15,29 @@
 <div class="page-curtain"></div>
 
 <header class="site-header">
-  <a href="index.html" class="brand"><span class="dot"></span>Inson&nbsp;Dubois&nbsp;Wood</a>
-  <button class="nav-toggle" aria-expanded="false" aria-label="Open menu">
-    <span class="lbl">Menu</span><span class="lines"></span>
-  </button>
+  <a href="index.html" class="brand-mark" aria-label="Inson Dubois Wood, home"></a>
+  <nav class="section-nav" aria-label="Primary">
+    <a href="index.html">Studio</a>
+    <a href="projects.html" class="is-active">Residential</a>
+    <a href="projects.html">Architecture</a>
+    <a href="about.html">Press</a>
+    <a href="about.html">Recognition</a>
+  </nav>
+  <div class="header-right">
+    <a href="about.html" class="news-chip">News <span class="pill">04</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Open menu">
+      <span class="lbl">Menu</span><span class="dots"><span></span><span></span></span>
+    </button>
+  </div>
 </header>
 
 <nav class="menu-overlay" aria-hidden="true">
   <ul class="menu-list">
-    <li><a href="index.html">Index</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="about.html">Studio</a></li>
-    <li><a href="contact.html">Contact</a></li>
+    <li><a href="index.html"><span class="num">01</span>Studio</a></li>
+    <li><a href="projects.html"><span class="num">02</span>Projects</a></li>
+    <li><a href="about.html"><span class="num">03</span>About</a></li>
+    <li><a href="about.html"><span class="num">04</span>Press</a></li>
+    <li><a href="contact.html"><span class="num">05</span>Contact</a></li>
   </ul>
   <div class="menu-foot">
     <span>526 W 26th St &nbsp;·&nbsp; New York</span>
@@ -36,142 +47,140 @@
 
 <main>
 
-  <!-- PAGE HEADER -->
-  <section class="wrap" style="padding-top: 22vh; padding-bottom: 10vh;">
-    <span class="eyebrow reveal">— Index of work, 30</span>
-    <h1 class="display split" style="max-width: 18ch; margin-top: 28px;">A library of <em>rooms</em>, mostly residential.</h1>
-    <p class="reveal" data-delay="2" style="max-width: 48ch; margin-top: 32px; font-family: var(--serif); font-size: clamp(18px,1.5vw,22px); color: var(--text);">
+  <section class="wrap" style="padding-top: calc(var(--header-h) + 14vh); padding-bottom: 6vh;">
+    <span class="eyebrow reveal">— Index of work · 30 projects</span>
+    <h1 class="headline reveal" data-delay="1" style="max-width: 18ch; margin-top: 28px;">A library of rooms, mostly residential.</h1>
+    <p class="reveal" data-delay="2" style="max-width: 52ch; margin-top: 36px; font-size: 16px; color: var(--text-2); line-height: 1.7;">
       Three decades of houses, apartments and country homes — New York to Chiang Mai. Each one was a long, quiet conversation about how to live.
     </p>
   </section>
 
-  <!-- FULL GRID -->
-  <section class="wrap" style="padding-top: 0;">
+  <section class="wrap" style="padding-top: 6vh;">
     <div class="grid">
 
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/greenwich-manor-house.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Greenwich Manor House</span><span class="proj-loc">Greenwich, CT</span></div>
+        <div class="proj-caption"><span class="proj-title">Greenwich Manor House <span class="arrow"></span></span><span class="proj-loc">Greenwich, CT</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/malmo-pool-house.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Midcentury Pool House</span><span class="proj-loc">Malmö, SE</span></div>
+        <div class="proj-caption"><span class="proj-title">Midcentury Pool House <span class="arrow"></span></span><span class="proj-loc">Malmö, SE</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/west-village-townhouse.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">West Village Townhouse</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">West Village Townhouse <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/upper-east-side-townhouse.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Upper East Side Townhouse</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Upper East Side Townhouse <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/palm-beach-residence.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Palm Beach Residence</span><span class="proj-loc">Palm Beach, FL</span></div>
+        <div class="proj-caption"><span class="proj-title">Palm Beach Residence <span class="arrow"></span></span><span class="proj-loc">Palm Beach, FL</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/tribeca-loft.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Tribeca Loft</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Tribeca Loft <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
 
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/5th-avenue-condo.png" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Fifth Avenue Condo</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Fifth Avenue Condo <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/upper-eastside-condo.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Upper Eastside Condo</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Upper Eastside Condo <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/upper-eastside-renovation.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Upper Eastside Renovation</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Upper Eastside Renovation <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/greenwich-carriage-house.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Greenwich Carriage House</span><span class="proj-loc">Greenwich, CT</span></div>
+        <div class="proj-caption"><span class="proj-title">Greenwich Carriage House <span class="arrow"></span></span><span class="proj-loc">Greenwich, CT</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/greenwich-village-church-condo.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Greenwich Village Church Condo</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Greenwich Village Church Condo <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/central-park-penthouse.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Central Park Penthouse</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Central Park Penthouse <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
 
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/upper-east-side-carriage-house.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">UES Carriage House</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">UES Carriage House <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/lake-como-farm-house.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Lake Como Farm House</span><span class="proj-loc">Lombardy, IT</span></div>
+        <div class="proj-caption"><span class="proj-title">Lake Como Farm House <span class="arrow"></span></span><span class="proj-loc">Lombardy, IT</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/upper-east-side-studio.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Upper East Side Studio</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Upper East Side Studio <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/townhouse-holiday.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Holiday Townhouse</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Holiday Townhouse <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/greenwich-village-townhouse.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Greenwich Village Townhouse</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Greenwich Village Townhouse <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/park-avenue-duplex.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Park Avenue Duplex</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Park Avenue Duplex <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
 
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/5th-avenue-museum-mile.png" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Fifth Avenue, Museum Mile</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Fifth Avenue · Museum Mile <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/greenwich-manor.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Greenwich Manor</span><span class="proj-loc">Greenwich, CT</span></div>
+        <div class="proj-caption"><span class="proj-title">Greenwich Manor <span class="arrow"></span></span><span class="proj-loc">Greenwich, CT</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/connecticut-country-house.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Connecticut Country House</span><span class="proj-loc">Falls Village, CT</span></div>
+        <div class="proj-caption"><span class="proj-title">Connecticut Country House <span class="arrow"></span></span><span class="proj-loc">Falls Village, CT</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/mardi-gras-academy-mansion.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Academy Mansion</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Academy Mansion <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/hamptons-colonial.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Hamptons Colonial</span><span class="proj-loc">Quogue, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Hamptons Colonial <span class="arrow"></span></span><span class="proj-loc">Quogue, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/northern-thailand-retreat.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Northern Thailand Retreat</span><span class="proj-loc">Chiang Rai, TH</span></div>
+        <div class="proj-caption"><span class="proj-title">Northern Thailand Retreat <span class="arrow"></span></span><span class="proj-loc">Chiang Rai, TH</span></div>
       </a>
 
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/chiangmai-country-house.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Chiang Mai Country House</span><span class="proj-loc">Chiang Mai, TH</span></div>
+        <div class="proj-caption"><span class="proj-title">Chiang Mai Country House <span class="arrow"></span></span><span class="proj-loc">Chiang Mai, TH</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/uppereastside-custom-kitchen.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">UES Custom Kitchen</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">UES Custom Kitchen <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/paris-penthouse.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Paris Penthouse</span><span class="proj-loc">Paris, FR</span></div>
+        <div class="proj-caption"><span class="proj-title">Paris Penthouse <span class="arrow"></span></span><span class="proj-loc">Paris, FR</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/mediterranean-villa.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Mediterranean Estate</span><span class="proj-loc">Santanyí, ES</span></div>
+        <div class="proj-caption"><span class="proj-title">Mediterranean Estate <span class="arrow"></span></span><span class="proj-loc">Santanyí, ES</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/lower-east-side-triplex.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Lower East Side Triplex</span><span class="proj-loc">New York, NY</span></div>
+        <div class="proj-caption"><span class="proj-title">Lower East Side Triplex <span class="arrow"></span></span><span class="proj-loc">New York, NY</span></div>
       </a>
       <a href="#" class="proj reveal">
         <div class="proj-img reveal-img"><img src="images/projects/palm-beach-villa.jpg" alt=""></div>
-        <div class="proj-caption"><span class="proj-title">Palm Beach Villa</span><span class="proj-loc">Palm Beach, FL</span></div>
+        <div class="proj-caption"><span class="proj-title">Palm Beach Villa <span class="arrow"></span></span><span class="proj-loc">Palm Beach, FL</span></div>
       </a>
 
     </div>
@@ -179,15 +188,21 @@
 
   <section class="statement wrap">
     <span class="eyebrow reveal">— Next</span>
-    <p class="lead reveal" data-delay="1">Considering a project? Start a quiet <em>conversation.</em></p>
-    <div style="margin-top: 36px;"><a href="contact.html" class="btn">Get in touch</a></div>
+    <p class="lead reveal" data-delay="1">Considering a project? Start a quiet conversation.</p>
+    <div style="margin-top: 36px;"><a href="contact.html" class="btn-arrow">Get in touch <span class="arr"></span></a></div>
   </section>
 
 </main>
 
 <footer class="site-foot">
   <div class="foot-grid">
-    <div class="col"><div class="foot-mark">Inson <em>Dubois</em> Wood</div></div>
+    <div class="col">
+      <div class="foot-mark">
+        <span class="seal"></span>
+        <span class="name">Inson&nbsp;·&nbsp;Dubois&nbsp;·&nbsp;Wood</span>
+      </div>
+      <p style="margin-top:24px; font-size:13px; color: var(--text-dim); max-width: 32ch;">A New York residential design studio, established 1987.</p>
+    </div>
     <div class="col"><h4>Studio</h4><address>526 W 26th St<br>Suite 805<br>New York, NY 10001</address></div>
     <div class="col"><h4>Contact</h4><a href="tel:2123431077">212.343.1077</a><a href="mailto:inson@insonwood.com">inson@insonwood.com</a></div>
     <div class="col"><h4>Follow</h4><a href="#">Instagram</a><a href="#">Pinterest</a></div>

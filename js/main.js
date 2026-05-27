@@ -147,6 +147,18 @@
     body.classList.remove('page-leaving');
   });
 
+  /* ---------- Header backdrop on scroll ---------- */
+  const header = document.querySelector('.site-header');
+  if (header) {
+    const onScroll = function () {
+      const y = window.scrollY || window.pageYOffset || 0;
+      header.classList.toggle('scrolled', y > 40);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    if (lenis) lenis.on('scroll', onScroll);
+    onScroll();
+  }
+
   /* ---------- Update copyright year ---------- */
   document.querySelectorAll('[data-year]').forEach(function (el) {
     el.textContent = new Date().getFullYear();
