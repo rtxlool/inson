@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact — Inson Dubois Wood</title>
+<meta name="description" content="Get in touch with Inson Dubois Wood for residential design and interiors. 526 W 26th St, Suite 805, New York.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="page-curtain"></div>
+
+<header class="site-header">
+  <a href="index.html" class="brand"><span class="dot"></span>Inson&nbsp;Dubois&nbsp;Wood</a>
+  <button class="nav-toggle" aria-expanded="false" aria-label="Open menu">
+    <span class="lbl">Menu</span><span class="lines"></span>
+  </button>
+</header>
+
+<nav class="menu-overlay" aria-hidden="true">
+  <ul class="menu-list">
+    <li><a href="index.html">Index</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="about.html">Studio</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="menu-foot">
+    <span>526 W 26th St &nbsp;·&nbsp; New York</span>
+    <span>212.343.1077</span>
+  </div>
+</nav>
+
+<main>
+
+  <section class="wrap contact-hero">
+    <span class="eyebrow reveal">— Contact</span>
+    <h1 class="display split" style="margin-top: 28px;">Start a quiet <em>conversation.</em></h1>
+  </section>
+
+  <section class="wrap">
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <div class="contact-block reveal">
+          <span class="label eyebrow">Studio</span>
+          <address>526 West 26th Street<br>Suite 805<br>New York, NY 10001</address>
+        </div>
+
+        <div class="contact-block reveal" data-delay="1">
+          <span class="label eyebrow">Telephone</span>
+          <a href="tel:2123431077">212.343.1077</a>
+        </div>
+
+        <div class="contact-block reveal" data-delay="2">
+          <span class="label eyebrow">Email</span>
+          <a href="mailto:inson@insonwood.com">inson@insonwood.com</a>
+        </div>
+
+        <div class="contact-block reveal" data-delay="3">
+          <span class="label eyebrow">Hours</span>
+          <address>Monday — Friday<br>10am — 6pm, by appointment</address>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" data-delay="1" onsubmit="event.preventDefault(); alert('Thank you — we\'ll be in touch within two business days.'); this.reset();">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" type="text" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" type="email" required autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="location">Project location</label>
+          <input id="location" type="text" placeholder="City, country">
+        </div>
+        <div class="field">
+          <label for="message">A few words on the project</label>
+          <textarea id="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send inquiry</button>
+      </form>
+
+    </div>
+  </section>
+
+  <section class="statement wrap">
+    <p class="lead reveal"><em>We reply</em> to every inquiry within <em>two business days.</em></p>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="foot-grid">
+    <div class="col"><div class="foot-mark">Inson <em>Dubois</em> Wood</div></div>
+    <div class="col"><h4>Studio</h4><address>526 W 26th St<br>Suite 805<br>New York, NY 10001</address></div>
+    <div class="col"><h4>Contact</h4><a href="tel:2123431077">212.343.1077</a><a href="mailto:inson@insonwood.com">inson@insonwood.com</a></div>
+    <div class="col"><h4>Follow</h4><a href="#">Instagram</a><a href="#">Pinterest</a></div>
+  </div>
+  <div class="foot-bottom">
+    <span>© <span data-year></span> Inson Dubois Wood, LLC</span>
+    <span>Residential Design &amp; Interiors</span>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script>if (window.gsap && window.ScrollTrigger) gsap.registerPlugin(ScrollTrigger);</script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

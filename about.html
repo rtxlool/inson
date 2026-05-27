@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Studio — Inson Dubois Wood</title>
+<meta name="description" content="A small residential design studio in Chelsea, New York. Inson Dubois Wood designs houses that are quiet, warm and built to last.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="page-curtain"></div>
+
+<header class="site-header">
+  <a href="index.html" class="brand"><span class="dot"></span>Inson&nbsp;Dubois&nbsp;Wood</a>
+  <button class="nav-toggle" aria-expanded="false" aria-label="Open menu">
+    <span class="lbl">Menu</span><span class="lines"></span>
+  </button>
+</header>
+
+<nav class="menu-overlay" aria-hidden="true">
+  <ul class="menu-list">
+    <li><a href="index.html">Index</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="about.html">Studio</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="menu-foot">
+    <span>526 W 26th St &nbsp;·&nbsp; New York</span>
+    <span>212.343.1077</span>
+  </div>
+</nav>
+
+<main>
+
+  <section class="wrap about-hero">
+    <span class="eyebrow reveal">— Studio, est. 1987</span>
+    <h1 class="display split" style="margin-top: 28px;">A small studio with a <em>long memory.</em></h1>
+  </section>
+
+  <section class="wrap" style="padding-top: 0;">
+    <div class="bio-grid">
+      <div class="label"><span class="eyebrow reveal">— Philosophy</span></div>
+      <div class="content">
+        <p class="reveal">
+          We design houses for people who plan to stay. The work is residential, mostly — a quiet specialty we have practiced through four economic cycles and two architectural fashions.
+        </p>
+        <p class="reveal" data-delay="1">
+          Our rooms tend toward warmth: natural materials with some weight to them, lighting layered low, fewer objects than the photographs suggest. The first night should feel as settled as the thousandth. Nothing should ask for attention.
+        </p>
+        <p class="reveal" data-delay="2">
+          We work slowly on a small number of projects at a time, almost always in collaboration with the architect. We will turn down work that does not fit, and we have never tried to grow the studio past the point where Inson sees every drawing.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-top: 8vh;">
+    <div class="about-portrait reveal-img">
+      <img src="images/projects/lake-como-farm-house.jpg" alt="Studio reference — Lake Como Farm House">
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="bio-grid">
+      <div class="label"><span class="eyebrow reveal">— Services</span></div>
+      <div class="content">
+        <p class="reveal">Interior architecture and renovation.</p>
+        <p class="reveal" data-delay="1">Furniture, lighting and material specification.</p>
+        <p class="reveal" data-delay="2">Custom millwork and built-ins.</p>
+        <p class="reveal" data-delay="3">Art and object curation.</p>
+        <p class="reveal" data-delay="4">Long-term stewardship of completed homes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="bio-grid">
+      <div class="label"><span class="eyebrow reveal">— Press &amp; Recognition</span></div>
+      <div class="content">
+        <p class="reveal" style="font-family: var(--sans); font-size: 15px; color: var(--text); line-height: 1.7;">
+          Architectural Digest <span class="muted">— featured residences, 2019, 2021, 2023</span><br>
+          Elle Decor <span class="muted">— A-List, 2020 &amp; 2024</span><br>
+          New York Times <span class="muted">— Greenwich Manor, 2022</span><br>
+          House Beautiful <span class="muted">— Top 100 Designers</span><br>
+          Veranda <span class="muted">— Cover, summer 2023</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="statement wrap">
+    <span class="eyebrow reveal">— Visit</span>
+    <p class="lead reveal" data-delay="1">The studio sits in <em>West Chelsea.</em> Appointments only — bring a few inspirations.</p>
+    <div style="margin-top: 36px;"><a href="contact.html" class="btn">Book a visit</a></div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="foot-grid">
+    <div class="col"><div class="foot-mark">Inson <em>Dubois</em> Wood</div></div>
+    <div class="col"><h4>Studio</h4><address>526 W 26th St<br>Suite 805<br>New York, NY 10001</address></div>
+    <div class="col"><h4>Contact</h4><a href="tel:2123431077">212.343.1077</a><a href="mailto:inson@insonwood.com">inson@insonwood.com</a></div>
+    <div class="col"><h4>Follow</h4><a href="#">Instagram</a><a href="#">Pinterest</a></div>
+  </div>
+  <div class="foot-bottom">
+    <span>© <span data-year></span> Inson Dubois Wood, LLC</span>
+    <span>Residential Design &amp; Interiors</span>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script>if (window.gsap && window.ScrollTrigger) gsap.registerPlugin(ScrollTrigger);</script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
